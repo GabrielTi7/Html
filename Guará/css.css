@@ -1,0 +1,255 @@
+* {
+  margin:0; 
+  padding:0; /*espaçamento*/
+}
+/* ------"fundo"-plano/mapa-------------*/
+
+body {
+  /*font-family: Helvetica, sans-serif, arial;*/
+  font-size: 100%;
+  background-color: #e1e1e1;
+  background-color: #e1e1e1;
+  background-image: url(imagens/Guara7.JPG);
+  background-repeat: imagens/Guara7.JPG;
+
+}
+.limit {
+    max-width: 900px; margin: 0 auto;
+}
+header  {
+    padding: 40px 0 100px;
+    background: rgb(41,41,41);
+    /*background-image: url();*/
+    overflow: hidden;
+    /* color: #FFF;*/
+  /*    color: #FFFFFF;*/  
+  /*background-image: url(/home/vanessa/Web-Projeto/videoaula/Definitivo-TentativaI/imagens/sky.jpg);*/
+    position: relative;
+
+  border: 10px ridge #DAC292;
+  color: #FFEECD;
+  background-color: #77591F;
+}
+
+header h1 {
+ /* font-size: 50px;*/
+  font-weight: 500;
+  text-transform: uppercase;
+  max-width: 450px; /*largura  do nome <h1>I KNOW PLACES*/
+  float: left;
+
+  font-family: 'Playfair Display', serif;
+}
+header h1 img {
+    max-width: 100%;
+}
+
+header h2 {
+  /*font-family: 'Gamja Flower', cursive;*/
+  float: right;
+  font-weight: 300;
+  padding: 3px 0 0;
+
+  font-family: 'Indie Flower', cursive;
+}
+
+.navside {
+  box-shadow: 0 0 7px 0px rgba(2,0,0,0.2);
+  background: #FFF;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
+  clear: left;
+  width: 205px;
+  position: relative;
+  top: 20px;
+
+}
+
+
+.navside h3 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  cursor: default;
+  background: rgba(0,0,0,0.13);
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+
+}
+.navside h3 a {
+  color: #000;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+
+}
+.navside li {
+
+  list-style: none;
+
+  
+}
+.navside li a {
+    display: block;
+    padding: 15px 20px;
+    font-size:0.9em;
+    text-decoration: none;
+    border-top: 1px solid #EFEFEF;
+    color: rgba(0,0,0,0.7);
+   
+
+}
+
+.navside li a:hover {
+  background: rgba(0,0,0,0.07);
+  color: rgba(0,0,0,0.9);
+    cursor: help;
+}
+
+.content {
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+  background: #FFFF;
+  padding: 35 10 35px;
+  position: relative;
+  top: 20px;
+  width: 8
+  0%;
+  text-align: justify;
+  font-family: 'Playfair Display', serif;
+}
+
+article.content {
+    overflow: hidden;
+  /*font-family: 'Gamja Flower', cursive;*/
+}
+
+
+article h1 {
+  /*font-family: 'Gamja Flower', cursive;*/
+  font-size: 2em;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 5px;
+
+  font-family: 'Playfair Display', serif;
+}
+
+article h1 + h2 {
+  font-weight: 300;
+  padding: 0 20px 30px;
+  margin-bottom: 30px;
+  font-size: 1.4em;
+  border-bottom: 1px solid rgba(0,0,0,0.15)
+}
+
+article h2 {
+  font-weight: 500;
+  padding: 20px 0 10px;
+}
+
+article h3 {
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+
+article p,
+article h1,
+article h2,
+article h3,
+article li {
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+
+}
+
+
+article ul {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+article ul li {
+  padding-left: 0  
+}
+
+article pre {
+  margin: 20px 0; overflow-x: auto
+}
+
+
+
+
+/*--------
+opcoes fontes 
+font-family: 'Playfair Display', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive; */
+
+/*-------
+estilo para exibição de imagens----*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.imagem {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #77591F;
+  overflow: hidden;
+  width: 0;
+  height: 10%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 10%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 10%;
+  left: 50%;
+  transform: translate(-10%, -10%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*aaaafastamento das imagens*/
+.container{
+  
+  margin: 25px 10px 35px 45px; 
+
+}
+
+.img{
+
+top: 5%;
+left: 50%;
+padding: 30px 0 15px;
+margin: 25px 10px 35px 45px; 
+}
+
+.img2{
+top: 35%;
+left: 5%;
+padding: 40px 0 15px;
+margin: 25px 10px 35px 45px; 
+width: -70%;
+}
